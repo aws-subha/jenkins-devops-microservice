@@ -30,10 +30,10 @@ pipeline {
             echo 'I'm awesome . I run always'
         }
         Success{
-            echo 'I run when build success'
+            echo 'I run when build successful'
         }
         Failure{
-            echo 'I run when build Failure'
+            echo 'I run when build Fail'
         }
     }
 }
