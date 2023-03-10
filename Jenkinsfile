@@ -27,7 +27,7 @@ pipeline {
     }
     post{
         always{
-            echo 'I'm awesome . I run always'
+            echo 'Im awesome . I run always'
         }
         Success{
             echo 'I run when build successful'
